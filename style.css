@@ -63,6 +63,10 @@ label .focus-bg {
     -webkit-transform-origin: left;
             transform-origin: left;
 }
+label input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 label input {
     -webkit-appearance: none;
     -moz-appearance: none;
